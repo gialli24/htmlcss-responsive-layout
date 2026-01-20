@@ -42,3 +42,38 @@
         margin-right: 20px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .recipe-name {
+        font-size: 48px;
+    }
+
+    .quick-notes>ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+        max-height: 520px;
+    }
+
+    .recipe-card>.recipe-video {
+        flex-grow: 1;
+        max-height: 520px;
+    }
+
+    .recipe-card>.recipe-info {
+        min-width: 300px;
+    }
+
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: initial;
+    }
+}
