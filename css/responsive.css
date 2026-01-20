@@ -77,3 +77,16 @@
         text-align: initial;
     }
 }
+
+/* Bonus */
+
+@media screen and (min-width: 576px) {
+    .clearfix>img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .social-networks>.btn {
+        flex-grow: 1;
+    }
+}
