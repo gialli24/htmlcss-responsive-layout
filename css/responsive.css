@@ -54,12 +54,12 @@
 
     .recipe-card {
         display: flex;
-        max-height: 520px;
+        height: 520px;
     }
 
     .recipe-card>.recipe-video {
         flex-grow: 1;
-        max-height: 520px;
+        height: 100%;
     }
 
     .recipe-card>.recipe-info {
