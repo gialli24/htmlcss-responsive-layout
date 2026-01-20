@@ -1,1 +1,44 @@
 /* Soluzione qui */
+
+@media screen and (min-width: 768px) {
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 30px;
+    }
+
+    .quick-notes>ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .quick-notes>ul>li {
+        flex-basis: calc(100% / 3 - (5px * 2) / 3);
+        flex-shrink: 0;
+    }
+
+    .social-networks>.btn {
+        flex-grow: 1;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix>img {
+        float: left;
+        margin-right: 20px;
+    }
+}
